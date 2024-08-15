@@ -1,0 +1,70 @@
+###
+POST http://localhost:2222/product
+Content-Type: application/json
+
+{
+    "pname": "grapes",
+    "pprice": 145,
+    "pqty":15,
+    "pdetails": "safe product",
+    "pseller": "shanu"
+}
+
+//spacing matter
+
+###
+GET http://localhost:2222/product
+
+
+
+###
+GET http://localhost:2222/product/658f30cca87cc9c99a30eac1
+
+
+###
+PUT http://localhost:2222/product
+Content-Type: application/json
+
+{
+    "pname": "grapes",
+    "pprice": 145,
+    "pqty":15,
+    "pdetails": "safe product",
+    "pseller": "shanu",
+    "id": "658f30cca87cc9c99a30eac1"
+}
+
+###
+PUT  http://localhost:9999/auth
+Content-Type: application/json
+
+{
+    "fullname": "admin",
+    "email": "admin@gmail.com",
+     "password": "123",
+     "role": "A"
+}
+
+###
+POST  http://localhost:9999/customer
+Content-Type: application/json
+
+{
+    "fullname" : "shanu",
+    "emailid": "aryan@gmail.com",
+    "mobileno": "6375995783",
+    "cityname":  "delhi",
+    "zipcode": "560037",
+    "fulladdress": "Ravi babu building, bangalore, karnataka",
+    "tokenno": "65c5bbe52cc8edb6673b9c05"
+}
+
+###
+Get http://localhost:9999/customer/65c5bbe52cc8edb6673b9c05
+
+
+###
+DELETE http://localhost:2222/product/658f30cca87cc9c99a30eac1
+
+###
+PUT http://localhost:9999/customer/65cae328bfc2200f9426798a

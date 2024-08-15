@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(../public/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 150%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.rate:not(:checked) > input {
+  position:absolute;
+  top:-9999px;
+}
+.rate:not(:checked) > label {
+  float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:50px;
+  color:#ccc;
+}
+.rate:not(:checked) > label:before {
+  content: '★ ';
+}
+.rate > input:checked ~ label {
+  color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+.login-box{
+   float: right;
+   border-radius: 10px;
+   background-color: #EEEEEE;
+   box-shadow: 5px 5px 5px 8px  rgb(105, 104, 104);
+}
+
+.title{
+  float: center;
+  color: rgb(31, 31, 246);
+  font-size: 70px !important;
+}
+
+.subtitle{
+  color: black;
+  text-wrap: balance;
+}
+
+.format{
+  margin-top: 100px;
+}
+
+.error{
+  color: red;
+}
+
+.feedback-box{
+  height: 600px;
+  overflow-y: scroll;
+  background: rgba(255,255,255, .2);
+  border-radius: 40px;
+ 
+}
+
+.feedback-box::-webkit-scrollbar {
+  display: none;
+}
+
+.text{
+  float: left;
+}
+
+
