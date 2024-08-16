@@ -33,11 +33,11 @@ Ensure you have the following installed:
 
    ```bash
    git clone [https://github.com/paritosh31mishra/Open_Weather.git]
-2. **cd backend
+2. ** cd backend
   npm install
-3.  **cd reactapp
+3.  ** cd reactapp
  npm install
-5. mongoose
+4. ** mongoose
 npm install mongoose
 
 
