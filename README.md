@@ -33,9 +33,13 @@ Ensure you have the following installed:
 
    ```bash or Vscode terminal
    git clone https://github.com/paritosh31mishra/Rule_Engine.git
-2.    cd backend <br/>
-      npm install <br/>
+2.    ```
+      cd backend
+      ```
+      npm install
+      ```
       npm install mongodb
+      
 4.  install mongo db compass(community version) and create database Rule_Engine
 
 ## Running the command
@@ -45,8 +49,10 @@ Ensure you have the following installed:
     ```
         nodemon myserver.js
 3. reactapp
-   ``` cd reactapp
-   ```npm start
+   ```
+      cd reactapp
+   ```
+      npm start
 
 ## Access the Application:
 
