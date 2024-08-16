@@ -40,7 +40,9 @@ Ensure you have the following installed:
 
 ## Running the command
 1. backend
-    ``` cd backend <br/>
+    ```
+        cd backend
+    ```
         nodemon myserver.js
 3. reactapp
    ``` cd reactapp
