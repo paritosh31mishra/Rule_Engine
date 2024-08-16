@@ -1,8 +1,8 @@
-# Weather Application
+# Rule Engine
 
 ## Overview
 
-This application is built with the MERN stack (MongoDB, Express.js, React.js, Node.js) and provides real-time weather updates for different cities. It stores hourly weather data in a MongoDB database and calculates daily summaries.
+This application is built with the MERN stack (MongoDB, Express.js, React.js, Node.js) and provides a rule engine that allows users to create, combine, and evaluate rules. It stores rule-related data in a MongoDB database and provides real-time evaluations based on user-defined rules.
 
 ## Prerequisites
 
@@ -32,7 +32,7 @@ Ensure you have the following installed:
 1. **Clone the Repository:**
 
    ```bash
-   git clone [https://github.com/paritosh31mishra/Open_Weather.git]
+   git clone [https://github.com/paritosh31mishra/Rule_Engine.git]
 2.  cd backend
   npm install
 3.   cd reactapp
@@ -50,7 +50,7 @@ nodemon myserver.js
 ## Access the Application:
 
 Frontend: http://localhost:3000
-Backend API: http://localhost:5556/api
+Backend API: http://localhost:5556/ruleapi
 Database:  open mongoose portal and see the data
 
    
