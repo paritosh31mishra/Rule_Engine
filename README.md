@@ -40,10 +40,10 @@ Ensure you have the following installed:
 
 ## Running the command
 1. backend
-   cd backend
-   ```nodemon myserver.js
+    ``` cd backend <br/>
+        nodemon myserver.js
 3. reactapp
-    cd reactapp
+   ``` cd reactapp
    ```npm start
 
 ## Access the Application:
