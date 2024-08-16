@@ -31,20 +31,20 @@ Ensure you have the following installed:
 
 1. **Clone the Repository:**
 
-   ```bash
-   git clone [https://github.com/paritosh31mishra/Rule_Engine.git]
+   ```bash or Vscode terminal
+   git clone https://github.com/paritosh31mishra/Rule_Engine.git
 2.  cd backend
-  npm install
-3.   cd reactapp
- npm install
-4.  mongoose
-npm install mongoose
-
+    npm install
+3.  mongoose
+   npm install mongodb
+4.  install mongo db compass(community version) and create database Rule_Engine
 
 ## Running the command
 1. backend
-nodemon myserver.js
-2. reactapp
+   cd backend
+   nodemon myserver.js
+3. reactapp
+   cd reactapp
    npm start
 
 ## Access the Application:
