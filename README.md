@@ -32,9 +32,9 @@ Ensure you have the following installed:
 1. **Clone the Repository:**
 
    ```bash or Vscode terminal
-   git clone https://github.com/paritosh31mishra/Rule_Engine.git**
-2.  cd backend
-    npm install
+   git clone https://github.com/paritosh31mishra/Rule_Engine.git
+2.    ```**cd backend**
+     **npm install**
 3.  mongoose
    npm install mongodb
 4.  install mongo db compass(community version) and create database Rule_Engine
