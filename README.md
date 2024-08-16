@@ -32,8 +32,8 @@ Ensure you have the following installed:
 1. **Clone the Repository:**
 
    ```bash or Vscode terminal
-   git clone https://github.com/paritosh31mishra/Rule_Engine.git
-2.  cd backend
+   git clone https://github.com/paritosh31mishra/Rule_Engine.git**
+2.  cd backend**
     npm install
 3.  mongoose
    npm install mongodb
